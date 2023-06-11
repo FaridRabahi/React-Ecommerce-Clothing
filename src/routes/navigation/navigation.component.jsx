@@ -4,7 +4,8 @@ import { Outlet, Link } from "react-router-dom";
 import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropDown from "../../components/cart-dropdwon/cart-dropdwon.component";
 
-import { ReactComponent as ELogo } from "../../assets/crown.svg";
+import { ReactComponent as ELogo } from "../../assets/icon.svg";
+
 import { UserContext } from "../../context/user.context";
 import { CartContext } from "../../context/cart.context";
 
