@@ -1,0 +1,57 @@
+{
+//"workbench.colorTheme": "Dracula",
+"editor.fontSize": 15,
+
+"editor.lineNumbers": "on",
+"editor.renderLineHighlight": "all",
+"workbench.editor.decorations.colors": true,
+"workbench.editor.decorations.badges": true,
+
+"workbench.colorCustomizations": {
+    "editor.background": "#0b1327",
+    "editor.foreground": "#aebfab",
+    "editor.selectionBackground": "#4d78cc",
+    "editorCursor.foreground": "#f3f714",
+    "sideBar.background": "#012144",
+    "editorGroupHeader.tabsBackground": "#013770",
+    "tab.activeBackground": "#004a99",
+    "tab.activeForeground": "#f8f7f7",
+    "tab.inactiveBackground": "#013063",
+    "tab.inactiveForeground": "#ffffff"
+},
+
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        
+        {
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#eeff01"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "string.template"
+            ],
+            "settings": {
+                "foreground": "#738feb"
+            }
+        },
+        /* {
+            "scope": [
+                "comment",
+                "comment.block.documentation"
+            ],
+            "settings": {
+                "foreground": "#7f76a1"
+            }
+        }, */
+        
+    ]
+}
+}
