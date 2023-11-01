@@ -66,12 +66,14 @@ export const getCategoriesAndDocuments = async () => {
 
   const querySnapShot = await getDocs(q);
 
-  const categoryMap = querySnapShot.docs.reduce((acc, docSnapshot) => {
+  return querySnapShot.docs.map((docSnapshot) => docSnapshot.data());
+
+  /*  const categoryMap = querySnapShot.docs.reduce((acc, docSnapshot) => {
     const { title, items } = docSnapshot.data();
     acc[title.toLowerCase()] = items;
     return acc;
   }, {});
-  return categoryMap;
+  return categoryMap; */
 };
 
 export const createUserDocumentFromAuth = async (
@@ -80,11 +82,11 @@ export const createUserDocumentFromAuth = async (
 ) => {
   if (!userAuth) return;
   const userDocRef = doc(db, "users", userAuth.uid);
-  console.log(userDocRef);
+  //console.log(userDocRef);
 
   const userSnapShot = await getDoc(userDocRef);
-  console.log(userSnapShot);
-  console.log(userSnapShot.exists());
+  // console.log(userSnapShot);
+  //console.log(userSnapShot.exists());
 
   if (!userSnapShot.exists()) {
     const { displayName, email } = userAuth;

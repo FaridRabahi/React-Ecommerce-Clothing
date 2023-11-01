@@ -8,15 +8,15 @@
 "workbench.editor.decorations.badges": true,
 
 "workbench.colorCustomizations": {
-    "editor.background": "#0b1327",
+    "editor.background": "#09101d",
     "editor.foreground": "#aebfab",
     "editor.selectionBackground": "#4d78cc",
     "editorCursor.foreground": "#f3f714",
-    "sideBar.background": "#012144",
-    "editorGroupHeader.tabsBackground": "#013770",
-    "tab.activeBackground": "#004a99",
+    "sideBar.background": "#151E1E",
+    "editorGroupHeader.tabsBackground": "#1b2020",
+    "tab.activeBackground": "#424242",
     "tab.activeForeground": "#f8f7f7",
-    "tab.inactiveBackground": "#013063",
+    "tab.inactiveBackground": "#282e2e",
     "tab.inactiveForeground": "#ffffff"
 },
 
@@ -39,7 +39,7 @@
                 "string.template"
             ],
             "settings": {
-                "foreground": "#738feb"
+                "foreground": "#859ef0"
             }
         },
         /* {
